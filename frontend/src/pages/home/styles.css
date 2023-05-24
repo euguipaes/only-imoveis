@@ -1,0 +1,85 @@
+.Container {
+  background-color: #1d1d1d;
+  width: 100%;
+}
+
+.dataContainer {
+  background-color: #1d1d1d;
+}
+
+.chartsContainer {
+  background-color: #1d1d1d;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 73px auto 73px auto;
+}
+
+.card {
+  margin-top: 50px;
+  --bs-card-bg: #ff9b04 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 10px auto 10px auto;
+}
+
+.totalNumber {
+  text-align: center;
+  font-weight: 600;
+}
+
+.chartDescription {
+  text-align: center;
+}
+
+.Sidebar {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #ff9b04;
+}
+
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.SidebarList .sidebarRow {
+  width: 100%;
+  height: 60px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.SidebarList .sidebarRow:hover {
+  cursor: pointer;
+  background-color: #d98200;
+}
+
+.SidebarList #active {
+  background-color: #d98200;
+  border-left: 3px solid #c80000;
+}
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 70%;
+}
